@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF6F5BB15C7C311007BA3EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6F5BA15C7C311007BA3EB /* UIKit.framework */; };
+		2EF6F5BD15C7C311007BA3EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6F5BC15C7C311007BA3EB /* Foundation.framework */; };
+		2EF6F5BF15C7C311007BA3EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6F5BE15C7C311007BA3EB /* CoreGraphics.framework */; };
+		2EF6F5C515C7C311007BA3EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6F5C315C7C311007BA3EB /* InfoPlist.strings */; };
+		2EF6F5C715C7C311007BA3EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6F5C615C7C311007BA3EB /* main.m */; };
+		2EF6F5CB15C7C311007BA3EB /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6F5CA15C7C311007BA3EB /* BIDAppDelegate.m */; };
+		2EF6F5CE15C7C311007BA3EB /* BIDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6F5CD15C7C311007BA3EB /* BIDFirstViewController.m */; };
+		2EF6F5D015C7C311007BA3EB /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6F5CF15C7C311007BA3EB /* first.png */; };
+		2EF6F5D215C7C311007BA3EB /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6F5D115C7C311007BA3EB /* first@2x.png */; };
+		2EF6F5D515C7C311007BA3EB /* BIDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6F5D415C7C311007BA3EB /* BIDSecondViewController.m */; };
+		2EF6F5D715C7C311007BA3EB /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6F5D615C7C311007BA3EB /* second.png */; };
+		2EF6F5D915C7C311007BA3EB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6F5D815C7C311007BA3EB /* second@2x.png */; };
+		2EF6F5DC15C7C311007BA3EB /* BIDFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6F5DA15C7C311007BA3EB /* BIDFirstViewController.xib */; };
+		2EF6F5DF15C7C311007BA3EB /* BIDSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6F5DD15C7C311007BA3EB /* BIDSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EF6F5B615C7C311007BA3EB /* SeoulLibs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeoulLibs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF6F5BA15C7C311007BA3EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2EF6F5BC15C7C311007BA3EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2EF6F5BE15C7C311007BA3EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2EF6F5C215C7C311007BA3EB /* SeoulLibs-Info.plist */ = {isa = PBXFileReference; path = "SeoulLibs-Info.plist"; sourceTree = "<group>"; };
+		2EF6F5C415C7C311007BA3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EF6F5C615C7C311007BA3EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EF6F5C815C7C311007BA3EB /* SeoulLibs-Prefix.pch */ = {isa = PBXFileReference; path = "SeoulLibs-Prefix.pch"; sourceTree = "<group>"; };
+		2EF6F5C915C7C311007BA3EB /* BIDAppDelegate.h */ = {isa = PBXFileReference; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		2EF6F5CA15C7C311007BA3EB /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		2EF6F5CC15C7C311007BA3EB /* BIDFirstViewController.h */ = {isa = PBXFileReference; path = BIDFirstViewController.h; sourceTree = "<group>"; };
+		2EF6F5CD15C7C311007BA3EB /* BIDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDFirstViewController.m; sourceTree = "<group>"; };
+		2EF6F5CF15C7C311007BA3EB /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		2EF6F5D115C7C311007BA3EB /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		2EF6F5D315C7C311007BA3EB /* BIDSecondViewController.h */ = {isa = PBXFileReference; path = BIDSecondViewController.h; sourceTree = "<group>"; };
+		2EF6F5D415C7C311007BA3EB /* BIDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDSecondViewController.m; sourceTree = "<group>"; };
+		2EF6F5D615C7C311007BA3EB /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		2EF6F5D815C7C311007BA3EB /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		2EF6F5DB15C7C311007BA3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDFirstViewController.xib; sourceTree = "<group>"; };
+		2EF6F5DE15C7C311007BA3EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EF6F5B315C7C311007BA3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF6F5BB15C7C311007BA3EB /* UIKit.framework in Frameworks */,
+				2EF6F5BD15C7C311007BA3EB /* Foundation.framework in Frameworks */,
+				2EF6F5BF15C7C311007BA3EB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EF6F5AB15C7C311007BA3EB = {
+			isa = PBXGroup;
+			children = (
+				2EF6F5C015C7C311007BA3EB /* SeoulLibs */,
+				2EF6F5B915C7C311007BA3EB /* Frameworks */,
+				2EF6F5B715C7C311007BA3EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EF6F5B715C7C311007BA3EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EF6F5B615C7C311007BA3EB /* SeoulLibs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EF6F5B915C7C311007BA3EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EF6F5BA15C7C311007BA3EB /* UIKit.framework */,
+				2EF6F5BC15C7C311007BA3EB /* Foundation.framework */,
+				2EF6F5BE15C7C311007BA3EB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EF6F5C015C7C311007BA3EB /* SeoulLibs */ = {
+			isa = PBXGroup;
+			children = (
+				2EF6F5C915C7C311007BA3EB /* BIDAppDelegate.h */,
+				2EF6F5CA15C7C311007BA3EB /* BIDAppDelegate.m */,
+				2EF6F5CC15C7C311007BA3EB /* BIDFirstViewController.h */,
+				2EF6F5CD15C7C311007BA3EB /* BIDFirstViewController.m */,
+				2EF6F5CF15C7C311007BA3EB /* first.png */,
+				2EF6F5D115C7C311007BA3EB /* first@2x.png */,
+				2EF6F5D315C7C311007BA3EB /* BIDSecondViewController.h */,
+				2EF6F5D415C7C311007BA3EB /* BIDSecondViewController.m */,
+				2EF6F5D615C7C311007BA3EB /* second.png */,
+				2EF6F5D815C7C311007BA3EB /* second@2x.png */,
+				2EF6F5DA15C7C311007BA3EB /* BIDFirstViewController.xib */,
+				2EF6F5DD15C7C311007BA3EB /* BIDSecondViewController.xib */,
+				2EF6F5C115C7C311007BA3EB /* Supporting Files */,
+			);
+			path = SeoulLibs;
+			sourceTree = "<group>";
+		};
+		2EF6F5C115C7C311007BA3EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EF6F5C215C7C311007BA3EB /* SeoulLibs-Info.plist */,
+				2EF6F5C315C7C311007BA3EB /* InfoPlist.strings */,
+				2EF6F5C615C7C311007BA3EB /* main.m */,
+				2EF6F5C815C7C311007BA3EB /* SeoulLibs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EF6F5B515C7C311007BA3EB /* SeoulLibs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF6F5E215C7C311007BA3EB /* Build configuration list for PBXNativeTarget "SeoulLibs" */;
+			buildPhases = (
+				2EF6F5B215C7C311007BA3EB /* Sources */,
+				2EF6F5B315C7C311007BA3EB /* Frameworks */,
+				2EF6F5B415C7C311007BA3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeoulLibs;
+			productName = SeoulLibs;
+			productReference = 2EF6F5B615C7C311007BA3EB /* SeoulLibs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EF6F5AD15C7C311007BA3EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "서울대학교";
+			};
+			buildConfigurationList = 2EF6F5B015C7C311007BA3EB /* Build configuration list for PBXProject "SeoulLibs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EF6F5AB15C7C311007BA3EB;
+			productRefGroup = 2EF6F5B715C7C311007BA3EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EF6F5B515C7C311007BA3EB /* SeoulLibs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EF6F5B415C7C311007BA3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF6F5C515C7C311007BA3EB /* InfoPlist.strings in Resources */,
+				2EF6F5D015C7C311007BA3EB /* first.png in Resources */,
+				2EF6F5D215C7C311007BA3EB /* first@2x.png in Resources */,
+				2EF6F5D715C7C311007BA3EB /* second.png in Resources */,
+				2EF6F5D915C7C311007BA3EB /* second@2x.png in Resources */,
+				2EF6F5DC15C7C311007BA3EB /* BIDFirstViewController.xib in Resources */,
+				2EF6F5DF15C7C311007BA3EB /* BIDSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EF6F5B215C7C311007BA3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF6F5C715C7C311007BA3EB /* main.m in Sources */,
+				2EF6F5CB15C7C311007BA3EB /* BIDAppDelegate.m in Sources */,
+				2EF6F5CE15C7C311007BA3EB /* BIDFirstViewController.m in Sources */,
+				2EF6F5D515C7C311007BA3EB /* BIDSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EF6F5C315C7C311007BA3EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF6F5C415C7C311007BA3EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2EF6F5DA15C7C311007BA3EB /* BIDFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF6F5DB15C7C311007BA3EB /* en */,
+			);
+			name = BIDFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		2EF6F5DD15C7C311007BA3EB /* BIDSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF6F5DE15C7C311007BA3EB /* en */,
+			);
+			name = BIDSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EF6F5E015C7C311007BA3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EF6F5E115C7C311007BA3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EF6F5E315C7C311007BA3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeoulLibs/SeoulLibs-Prefix.pch";
+				INFOPLIST_FILE = "SeoulLibs/SeoulLibs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2EF6F5E415C7C311007BA3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeoulLibs/SeoulLibs-Prefix.pch";
+				INFOPLIST_FILE = "SeoulLibs/SeoulLibs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EF6F5B015C7C311007BA3EB /* Build configuration list for PBXProject "SeoulLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF6F5E015C7C311007BA3EB /* Debug */,
+				2EF6F5E115C7C311007BA3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF6F5E215C7C311007BA3EB /* Build configuration list for PBXNativeTarget "SeoulLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF6F5E315C7C311007BA3EB /* Debug */,
+				2EF6F5E415C7C311007BA3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EF6F5AD15C7C311007BA3EB /* Project object */;
+}
