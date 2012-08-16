@@ -7,6 +7,10 @@
 //
 
 #import "BIDSecondViewController.h"
+#import "BIDMapViewController.h"
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MKUserLocation.h>
+#import <CoreLocation/CLLocation.h>
 
 @interface BIDSecondViewController ()
 
@@ -18,8 +22,10 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
-        self.tabBarItem.image = [UIImage imageNamed:@"second"];
+                
+        self.title = NSLocalizedString(@"지도 검색", @"지도 검색");
+        self.tabBarItem.image = [UIImage imageNamed:@"Second"];
+        self.navigationItem.title = @"지도 검색";
     }
     return self;
 }
@@ -40,5 +46,15 @@
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+
+- (IBAction)showUserLocation{
+    
+}
+
+- (IBAction)goToInnerDepth:(id)sender{
+    BIDMapViewController *mapview = [BIDMapViewController new];
+    [self.navigationController pushViewController:mapview animated:YES];
+}
+
 
 @end

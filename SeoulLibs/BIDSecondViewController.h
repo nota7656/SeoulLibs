@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MKMapView.h>
+#import <MapKit/MKUserLocation.h>
 
 @interface BIDSecondViewController : UIViewController
+
+- (IBAction)goToInnerDepth:(id)sender;
 
 @end

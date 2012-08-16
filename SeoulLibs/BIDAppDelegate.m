@@ -7,10 +7,11 @@
 //
 
 #import "BIDAppDelegate.h"
-
 #import "BIDFirstViewController.h"
-
 #import "BIDSecondViewController.h"
+#import "BIDThirdViewController.h"
+#import "BIDFourthViewController.h"
+#import "BIDMapViewController.h"
 
 @implementation BIDAppDelegate
 
@@ -21,10 +22,21 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    [[UIBarButtonItem appearance] setTintColor:[UIColor blackColor]];
+    // 어플리케이션 내의 모든 BarButtonItem의 틴트 색상이 검은색이 됨
+    
     UIViewController *viewController1 = [[BIDFirstViewController alloc] initWithNibName:@"BIDFirstViewController" bundle:nil];
     UIViewController *viewController2 = [[BIDSecondViewController alloc] initWithNibName:@"BIDSecondViewController" bundle:nil];
+    UIViewController *viewController3 = [[BIDThirdViewController alloc] initWithNibName:@"BIDThirdViewController" bundle:nil];
+    UIViewController *viewController4 = [[BIDFourthViewController alloc] initWithNibName:@"BIDFourthViewController" bundle:nil];
+    UINavigationController *myNaviViewController1 = [[UINavigationController alloc]initWithRootViewController:viewController2];
+    myNaviViewController1.navigationBar.tintColor = [UIColor blackColor];
+    UINavigationController *myNaviViewController2 = [[UINavigationController alloc]initWithRootViewController:viewController3];
+    myNaviViewController2.navigationBar.tintColor = [UIColor blackColor];
+
+    
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, myNaviViewController1, myNaviViewController2, viewController4, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
